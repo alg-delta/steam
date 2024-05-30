@@ -1,0 +1,204 @@
+.wrapper {
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(9,9,121,1) 35%, rgba(0,45,54,1) 100%);  
+	background-size: cover;
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Times New Roman;
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: block;
+	transition: all 0.3s;
+}
+
+.menu a:hover {
+	transform: scale(1.2);
+	color: cyan;
+}
+.menu a.active {
+	color: white;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 220px;
+}
+
+.logo {
+	width: 100px;
+}
+
+.logo:hover  {
+	animation: shake   0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shake{
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Головна */
+
+.main-img {
+	float: right;
+	width: 800px;
+}
+
+.main-title {
+	margin: 50px;
+	text-shadow: 0 0 20px black;
+	color: white;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+	width: 140px;
+	height: 60px;
+	font-style: Verdana;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: white;
+	border: 4px double black;
+	margin-left: 50px;
+}
+
+.button a:hover {
+	color: black;
+}
+
+.subtitle {
+	margin-left: 50px;
+	text-shadow: 0 0 20px black;
+	color: white;
+	
+}
+
+.foto {
+	width: 500px;
+	margin-left: 50px;
+}
+
+.subtitle1 {
+	font-size: 15px;
+	text-shadow: 0 0 20px black;
+	color: white;
+	margin-left: 50px;
+}
+
+.foto2 {
+	width: 500px;
+	margin-left: 50px;
+}
+
+.subtitle2 {
+	font-size: 15px;
+	float: left;
+	text-shadow: 0 0 20px black;
+	color: white;
+	margin-left: 50px;
+}
+
+.foto3 {
+	/* float: right; */
+	width: 500px;
+	margin-left: 50px;
+}
+
+.magaz {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.main {
+	/* width: 500px; */
+}
+
+.subtitle3 {
+	text-shadow: 0 0 20px black;
+	color: white;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
